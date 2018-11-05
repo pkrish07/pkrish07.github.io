@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Prashant K.
+	</title>
+
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+
+	<style type="text/css">
+
+	body{
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+
+	#profile_header{
+		padding-top: 10%;
+		text-align: center;
+        padding-bottom: 3%;
+	}
+
+	.section2, .section3{
+		margin-bottom: 5%;
+	}
+
+	.section1{
+
+		margin-bottom: 1%;
+		background-image: url();
+		background-size: cover;
+		background-position: center;
+        text-align: center;
+	}
+
+	/*html{
+		height:100%;
+	}
+*/
+	.resume{
+    	font-size: 20px;
+    	border-radius: 10px
+		margin-top:10px;
+	}
+
+	.headshot{
+
+		margin-bottom: 10px;
+	}
+
+
+
+	.icon{
+		padding: 50px;
+		color: white;
+	}
+
+
+	hr{
+	width: 400px;
+	border-top: 1px solid #a07c04; ;
+	border-bottom: 1px solid #a07c04;
+	color: #a07c04;
+	}
+
+	#second_hr{
+		width: 200px;
+		border-top: 1px solid #a07c04; ;
+	border-bottom: 1px solid #a07c04;
+	}
+
+	a{
+		color: black;
+	}
+
+	h1,h2{
+		text-align: center;
+	}
+
+	.hideme{
+		opacity: 0;
+	}
+
+	.label{
+		color: #a07c04;
+	}
+
+	.card{
+      height: 320px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        transition: all ease-in-out 300ms;
+
+     }
+    .card:hover {
+        transform: translate(0px, -5px);
+        box-shadow: 0 18px 40px rgba(0,0,0,0.3);
+    }
+
+
+  .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover{
+     transform: translate(0px, -5px);
+    color:#a07c04;
+    }
+
+	.btn-warning{
+		color: white;
+		border-color: #a07c04;
+		background: #a07c04;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width: 100px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+    color: white;
+	}
+
+	.navbar-nav .nav-item.active .nav-link,
+	.navbar-nav .nav-item:hover .nav-link {
+    color: #a07c04;
+	}
+
+    .card-body{
+            margin-bottom: -50px;
+    }
+
+    /*.modal-body, .modal-header, .modal-footer{
+    	background-color: #2c3035;
+    }
+
+
+*/
+
+	.modal-header, .modal-footer{
+		background-color: #2c3035;
+	}
+
+	.btn-secondary{
+		background-color: #a07c04;
+	}
+
+	.modal-dialog{
+		border-radius: 10px ; 
+	}
+
+	.modal-title{
+		color: #a07c04;
+	}
+
+	code{
+		background-color: #f9f2f4; 
+	}
+
+	.projects{
+		background-color: #f9f2f4; 
+	}
+
+	#profile_header{
+		background-image: url("Background.jpg");
+		background-size: cover; 
+	}
+
+
+  	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#" id="nav_name_link">Prashant <span class="label">Ramani</span> Krishnan</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link " href="#" id="nav_home_link">Home</a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="#contact_me"
+         id="nav_about_link" >About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#section_2" id="nav_coursework_link">Coursework</a>
+      </li>
+<!--       <li class="nav-item">
+        <a class="nav-link " href="#section_3"
+        id="nav_projects_link">Projects</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+
+<div class="section1">
+
+<div id="profile_header">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+				<div class="thumbnail headshot">
+					<img src="headshot.jpg" style="border-radius: 50%;" width="15%" alt="Prashant K.">
+				</div>
+				<div>
+				<strong style="color:white">Prashant R. Krishnan</strong>
+						<p style="text-align: center; color:white">
+                        University of Maryland-College Park, Class of 2020
+                        <br>
+                        <span class="label"><strong>Major:</strong></span> Computer Science
+                        <br>
+				        <span class="label"><strong>Minor:</strong></span> Statistics and Technology Entrepreneurship
+                        </p>
+					<hr id>
+                </div>
+            </div>
+        </div>
+       </div>
+   </div>
+
+   <div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+		<br>
+        <div id="about_me">
+				<h3><strong>About me</strong></h3>
+                    <p>
+					Hi! My name is Prashant Krishnan and I am a Junior Computer Science major at the University of Maryland-College Park, double minoring in statistics and technology entrepreneurship.
+					I am always on the lookout for new opportunities to learn and apply my skills, whether it be internships or getting involved with various projects, so feel free to reach out to me!
+					</p>
+					<hr id="second_hr">
+					<a href="https://www.visualcv.com/prashant-ramani-krishnan/pdf" class="btn btn-outline-dark resume" role="button">R&eacutesum&eacute</a>
+				</div>
+
+				<a id="contact_me">
+					<div>
+						<div class="row">
+							<div class="col-md-4 icon">
+								<a href="https://www.linkedin.com/in/prashant-krishnan-896322153/"><i class="fab fa-github" style="font-size:48px;"></i></a>
+								<p><span class="label"><strong>github: </strong></span><a href="https://github.com/">https://www.linkedin.com/in/prashant-krishnan</a></p>
+							</div>
+							<div class="col-md-4 icon">
+								<a href="https://www.linkedin.com/in/prashant-krishnan-896322153/"><i class="fab fa-linkedin" style="font-size:48px;"></i></a>
+								<p><span class="label"><strong>LinkedIn: </strong></span><a href="https://www.linkedin.com/in/prashant-krishnan-896322153/">https://www.linkedin.com/in/prashant-krishnan</a></p>
+							</div>
+							<div class="col-md-4 icon">
+								<a href="mailto:prashant.krishnan07@gmail.com"><i class="fas fa-envelope" style="font-size:48px;"></i></a>
+								<p><span class="label"><strong>Email: </strong></span><a href="mailto:prashant.krishnan07@gmail.com">prashant.krishnan07@gmail.com</a></p>
+							</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<a id="section_2">
+<div class="section2 hideme">
+<div class="container">
+	<h2>Coursework</h2>
+	<hr>
+		<p style="text-align: center">
+		<strong>Currently Enrolled (Fall 2018)</strong>
+        <br>
+         <span class="label"><strong>CMSC330 -</strong></span> Organization of Programming Languages
+         <br>
+	     <span class="label"><strong>CMSC351 -</strong></span> Algorithms
+	     <br>
+	     <span class="label"><strong>CMSC389K -</strong></span> AFull Stack Web Development With Node.js
+	     <br>
+	     <span class="label"><strong>STAT401 -</strong></span> Applied Statistics and Probability II
+       	</p>
+
+	<hr>
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Spring 2017</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">CMSC131: Object Oriented Programming I</h5>
+			    <p class="card-text">
+			    	Main Topics Covered:</p>
+			    	<ul>
+			    		<li>Java</li>
+			    	</ul>
+			  </div>
+			   <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#cmsc131projects">Projects</button>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Fall 2017</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">CMSC132: Object Oriented Programming II</h5>
+			    <p class="card-text">Main Topics Covered:</p>
+			    	<ul>
+			    		<li>Java</li>
+			    		<li>JavaFX</li>
+			    	</ul>
+			  </div>
+			  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#cmsc132projects">Projects</button>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Spring 2018</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">CMSC216: Introduction to Computer Systems</h5>
+                  <p class="card-text"> Main Topics Covered:</p>
+			    	<ul>
+			    		<li>C</li>
+			    		<li>Assembly</li>
+			    		<li>Arduino</li>
+                  </ul>
+			  </div>
+			   <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#cmsc216projects">Projects</button>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Spring 2018</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">CMSC250: Discrete Structures</h5>
+			    <p class="card-text">Main Topics Covered:</p>
+			    	<ul>
+			    		<li>Logic</li>
+			    		<li>Circuits</li>
+			    		<li>Proofs</li>
+			    	</ul>
+			  </div>
+			  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#cmsc250projects">Projects</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</a>
+
+<!-- Modals -->
+<div class="modal fade" id="cmsc131projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CMSC131 - Introduction to Object Oriented Programming</h5>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Languages and Technologies Used: <code>Java</code></h4>
+        <h4>Projects</h4>
+        <div class="projects">
+        	<ul>
+        		<li>
+        			<h5><strong>Flag Creator</strong></h5>
+        			<p>
+        				Created a program that generates different flags of the world on a grid of any specified size
+        			</p>
+        		</li>	
+
+        	</ul>
+         	<ul>
+        		<li>
+        			<h5><strong>Medival Soldiers</strong></h5>
+        			<p>
+        				This project involved us designing objects (soldiers) and creating charactaristics within these objects that allowed them to fight each other on a battlefield. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Mandelbrot Set</strong></h5>
+        			<p>
+        				This project had us visually represent a Mandelbrot set. We did this by creating different operations that ran operations and parsed through complex numbers in different ways. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Poker Simulator</strong></h5>
+        			<p>
+        				This project had us simulate a game of Texas Hold'Em. We implemented the Deck class for the game as well as a HandEvaluator object to determine all the possible poker hand combination given any hand of cards
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Cafe 131</strong></h5>
+        			<p>
+        				Created various classes and utilized interfaces to create a working inventory checking system for a fictional cafe restaurant. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Fish Club</strong></h5>
+        			<p>
+        				Created a simulator of a very primitive "ecosystem." Designed a working Fish and Plant class that attempted to simulate a basic running ecosystem. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cmsc132projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CMSC132 - Object Oriented Programming 2</h5>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Languages and Technologies Used: <code>Java</code> <code>JavaFX</code></h4>
+        <h4>Projects</h4>
+        <div class="projects">
+        	<ul>
+        		<li>
+        			<h5><strong>Black Jack</strong></h5>
+        			<p>
+        				Created a program that simulated a game of blackjack. We were responsible for designing and implementing the Deck class, as well as the Blackjack class, where we created functions to evaluate both the dealer's and player's hand. 
+        			</p>
+        		</li>	
+
+        	</ul>
+         	<ul>
+        		<li>
+        			<h5><strong>Web Page Generator</strong></h5>
+        			<p>
+        				This project had us create a generator that generated html tags in order to develop basic web pages. We developed classes for each of the most commonly used tags and handled associated attributes with each tag.    
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Interest Table Calculator</strong></h5>
+        			<p>
+        				Used JavaFX to create a working interest table calculator that allowed the user to input a certain interest rate and principle amount, as well as the type of interest (compound, simple or both) and determine their revenue after any number of years. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Linked List Project</strong></h5>
+        			<p>
+        				This project had us create both an ordered and unordered Linked list data structure used to organize information. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Online Test</strong></h5>
+        			<p>
+        				Created from scratch an object oriented solution for the generation of exams with multiple types of question, and then determining scores of each exam object for each and every student object. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Orders Processor</strong></h5>
+        			<p>
+        				This project had us utilize multi-threading in order to keep track of an inventory and client purchases and read off of file orders to update inventory in real time. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Polymorphic BST</strong></h5>
+        			<p>
+        				This project had us implement both a basic binary search tree as well as a polymorphic binary search tree to handle and organize information. 
+        			</p>
+        		</li>	
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Graphs</strong></h5>
+        			<p>
+        				This project had us create a graph utilizing hashmaps and maps to store data. We additionally implemented Djikstras algorithmn to visiually determine the greediest path. 
+        			</p>
+        		</li>	
+        	</ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="cmsc250projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CMSC250 - Discrete Structures</h5>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<h4>No Projects</h4>
+        <div class="projects">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cmsc216projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CMSC216 - Computer Systems</h5>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Languages and Technologies Used: <code>C</code> <code>AVR Assembly</code> <code>Arduino</code></h4>
+        <h4>Projects</h4>
+        <div class="projects">
+        	<ul>
+        		<li>
+        			<h5><strong>Grades Calculator</strong></h5>
+        			<p>
+        				A program used to perform various operations on a students grades. Including holding onto it, dropping the lowest, calculating the mean and finding the average etc. 
+        			</p>
+        		</li>	
+
+        	</ul>
+         	<ul>
+        		<li>
+        			<h5><strong>Document Manager</strong></h5>
+        			<p>
+        				A document manager application that read instructions to be performed on document objects from text files through input redirection. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Document Manager CLI</strong></h5>
+        			<p>
+        				Developed a command line interface that allowed the user to utilize all the various functions developed in the Document Manager Project. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Calendar</strong></h5>
+        			<p>
+        				Implemented a working calendar where users could both utilize text files and the command lines to execute instructions, such as adding events, removing events etc. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>C to Assembly Projects</strong></h5>
+        			<p>
+        				Translated recursive C functions into AVR assembly.
+        			</p>
+        		</li>	
+
+        	</ul>
+        	<ul>
+        		<li>
+        			<h5><strong>Shell</strong></h5>
+        			<p>
+        				Implemented and deployed a Shell. 
+        			</p>
+        		</li>	
+
+        	</ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modals -->
+
+<!-- <a id="section_3">
+<div class="section3 hideme">
+	<div class="container">
+	<h2>Projects</h2>
+	<hr>
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Date</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">Project Name</h5>
+			    <p class="card-text">Project Description</p>
+			  </div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Date</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">Project Name</h5>
+			    <p class="card-text">Project Description</p>
+			  </div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Date</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">Project Name</h5>
+			    <p class="card-text">Project Description</p>
+			  </div>
+			</div>
+		</div>
+	    <div class="col-lg-3 col-md-6 col-sm-12">
+			<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+			  <div class="card-header label">Date</div>
+			  <div class="card-body">
+			    <h5 class="card-title label">Project Name</h5>
+			    <p class="card-text">Project Description</p>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</a> -->
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+</html>
