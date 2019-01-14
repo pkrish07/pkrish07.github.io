@@ -17,7 +17,7 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
 
-                $(this).animate({'opacity':'1'},1500);
+                $(this).animate({'opacity':'1'},1000);
 
             }
 
@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     $("#nav_about_link").click(function (){
              $('html, body').animate({
-                 scrollTop: $(".section1").offset().top
+                 scrollTop: $(".section_about_me").offset().top
              }, 2000);
          });
 
@@ -43,11 +43,11 @@ $(document).ready(function() {
              }, 2000);
          });
 
-     $("#nav_projects_link").click(function (){
-             $('html, body').animate({
-                 scrollTop: $(".section3").offset().top
-             }, 2000);
-         });
+     // $("#nav_projects_link").click(function (){
+     //         $('html, body').animate({
+     //             scrollTop: $(".section3").offset().top
+     //         }, 2000);
+     //     });
 
       $("#nav_name_link").click(function (){
              $('html, body').animate({
